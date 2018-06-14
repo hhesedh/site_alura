@@ -50,6 +50,7 @@ p {
 
 main a {
   color: #851944;
+
 }
 
 .navegacao-site a {
@@ -66,7 +67,9 @@ main a {
 .container {
   width: 720px;
   margin: auto;
-  padding: 30px 0;
+  padding: 40px 0;
+  padding-bottom: 80px;
+
 }
 
 .navegacao-site h1 {
@@ -130,6 +133,7 @@ em {
 .fiat {
   float: left;
 }
+
 .petrobras {
   float: right;
 }
@@ -137,7 +141,7 @@ em {
 cite {
   float: right;
   font-style: italic;
-  
+
 }
 
 main {
@@ -145,9 +149,9 @@ main {
   width: 85%;
 }
 
-.minha-foto, .navegacao-site {
+.minha-foto,
+.navegacao-site {
   float: right;
-  width: 15%;
   border-bottom: 10px solid black;
   border-left: 10px solid black;
   box-sizing: border-box;
@@ -155,8 +159,21 @@ main {
 
 .navegacao-site {
   clear: right;
+  width: 15%;
+  position: relative;
+  top: 310px;
+}
+
+.minha-foto {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .rodape-pagina {
   clear: both;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
 }
